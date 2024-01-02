@@ -1,23 +1,10 @@
 import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
   ClevertechLogo,
   ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
   MonitoLogo,
-  NSNLogo,
   ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 import { BookText } from "lucide-react";
 
 export const RESUME_DATA = {
@@ -30,7 +17,6 @@ export const RESUME_DATA = {
   summary:
     "I'm a Frontend Developer with 3 years of software development experience. Proficient in Remix, NextJS, tailwindCSS, supabase, TypeScript, React, Prisma, tRCP. My passion lies in creating seamless user interfaces that blend functionality with aesthetics. Let's bring your ideas to life through clean and efficient code.",
   avatarUrl: "https://avatars.githubusercontent.com/u/55501475?v=4",
-  // personalWebsiteUrl: "https://sider-dev-blog.vercel.app/",
   contact: {
     email: "nahueldevelop@gmail.com",
     social: [
@@ -141,7 +127,6 @@ export const RESUME_DATA = {
         href: "https://remix-prefetch-page-links-demo.vercel.app/",
       },
     },
-
     {
       title: "Next.js Authjs Example",
       techStack: ["Side Project", "Next.js", "Auth.js", "Supabase"],
@@ -152,7 +137,6 @@ export const RESUME_DATA = {
         href: "nextjs-authjs-example.vercel.app",
       },
     },
-
     {
       title: "Pokedux",
       techStack: ["Side Project", "React.js", "Redux", "API"],
