@@ -134,7 +134,7 @@ export const RESUME_DATA = {
       logo: MonitoLogo,
       link: {
         label: "nextjs-authjs-example",
-        href: "nextjs-authjs-example.vercel.app",
+        href: "https://nextjs-authjs-example.vercel.app",
       },
     },
     {
