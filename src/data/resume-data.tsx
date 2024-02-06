@@ -41,7 +41,7 @@ export const RESUME_DATA = {
     {
       school: "Maria Auxiliadora School",
       degree: "Bachelor's degree in economics and administration",
-      start: "2010",
+      start: "2015",
       end: "2020",
     },
   ],
