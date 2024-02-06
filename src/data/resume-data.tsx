@@ -15,7 +15,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
-    "I'm a Frontend Developer with 3 years of software development experience. Proficient in Remix, NextJS, tailwindCSS, supabase, TypeScript, React, Prisma, tRCP. My passion lies in creating seamless user interfaces that blend functionality with aesthetics. Let's bring your ideas to life through clean and efficient code.",
+    "I'm a Frontend Developer with 2 years of software development experience. Proficient in Remix, NextJS, tailwindCSS, supabase, TypeScript, React, Prisma, tRCP. My passion lies in creating seamless user interfaces that blend functionality with aesthetics. Let's bring your ideas to life through clean and efficient code.",
   avatarUrl: "https://avatars.githubusercontent.com/u/55501475?v=4",
   contact: {
     email: "nahueldevelop@gmail.com",
@@ -32,7 +32,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Blog",
-        url: "https://sider-dev-blog.vercel.app/",
+        url: "https://nahuel-dev.pages.dev/blog",
         icon: BookText,
       },
     ],
@@ -82,13 +82,23 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Trello Clone",
+      techStack: ["Side Project", "TypeScript", "Remix", "Prisma"],
+      description: "Trello clone made with Remix, React-Aria and prisma",
+      logo: ConsultlyLogo,
+      link: {
+        label: "trello-clone",
+        href: "https://trello-clone-zeta-wheat.vercel.app/",
+      },
+    },
+    {
       title: "My blog",
-      techStack: ["Side Project", "TypeScript", "Next.js", "MDX"],
+      techStack: ["Side Project", "Remix", "D1 database", "Cludflare Pages",],
       description: "A blog made with NextJS, shadcn/ui and MDX",
       logo: ConsultlyLogo,
       link: {
         label: "siderdev-blog",
-        href: "https://sider-dev-blog.vercel.app/",
+        href: "https://nahuel-dev.pages.dev/blog",
       },
     },
     {
@@ -98,7 +108,7 @@ export const RESUME_DATA = {
       logo: MonitoLogo,
       link: {
         label: "task-manager-remix",
-        href: "https://task-manager-remix.netlify.app/",
+        href: "https://task-manager-remix.vercel.app/",
       },
     },
     {
